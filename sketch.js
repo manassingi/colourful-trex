@@ -22,7 +22,7 @@ function preload(){
   sunAnimation = loadImage("assets/sun.png");
   
   trex_running = loadAnimation("dog1.png","dog2.png","dog3.png","dog4.png","dog 5.png","dog6.png","dog7.png","dog8.png","dog 9.png","dog 10.png","dog 11.png","dog12.png");
-  trex_collided = loadAnimation("assets/trex_collided.png");
+  trex_collided = loadAnimation("dog1.png");
   
   groundImage = loadImage("assets/ground.png");
   
@@ -50,7 +50,7 @@ function setup() {
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
   trex.setCollider('circle',0,0,350)
-  trex.scale = 0.08
+  trex.scale = 0.5
   // trex.debug=true
   
   invisibleGround = createSprite(width/2,height-10,width,125);  
