@@ -50,7 +50,7 @@ function setup() {
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
   trex.setCollider('circle',0,0,350)
-  trex.scale = 0.5
+  trex.scale = 0.9;
   // trex.debug=true
   
   invisibleGround = createSprite(width/2,height-10,width,125);  
