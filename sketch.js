@@ -21,7 +21,7 @@ function preload(){
   backgroundImg = loadImage("assets/backgroundImg.png")
   sunAnimation = loadImage("assets/sun.png");
   
-  trex_running = loadAnimation("assets/trex_2.png","assets/trex_1.png","assets/trex_3.png");
+  trex_running = loadAnimation("dog1","dog2","dog3","dog4","dog5","dog6","dog7","dog8","dog9","dog 10","dog 11","dog12",);
   trex_collided = loadAnimation("assets/trex_collided.png");
   
   groundImage = loadImage("assets/ground.png");
